@@ -14,7 +14,7 @@ class CustomComponentConstructor {
     this->components_ = init();
 
     for (auto *comp : this->components_) {
-      App.register_component(comp);
+      App.register_component_(comp);
     }
   }
 
